@@ -12,7 +12,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 
-// IMPORTANT: This annotation maps the URL path 'UpdateAppointmentStatus' to this Servlet.
+
 @WebServlet("/UpdateAppointmentStatus")
 public class UpdateAppointmentStatus extends HttpServlet {
 	private static final long serialVersionUID = 1L;
